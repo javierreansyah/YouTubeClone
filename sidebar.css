@@ -1,0 +1,31 @@
+.sidebar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    bottom: 0;
+    top: 62px;
+    width: 76px;
+    align-items: center;
+}
+.home-icon {
+    width: 32px;
+}
+.subscriptions-icon {
+    width: 32px;
+}
+.library-icon {
+    width: 32px;
+}
+.sidebar-text {
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+.sidebar-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
